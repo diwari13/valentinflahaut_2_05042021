@@ -1,0 +1,160 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+@front-face
+{
+    font-family: "raleway";
+    src :(   )
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+
+nav a:hover
+{
+    color: #0065FC;
+    border-bottom: 3px solid #760001;
+}
+
+
+section
+{
+
+	display: space-between;
+	background-color: #F2F2F2;
+	border-radius: 10px;
+  align-items: center;
+}
+
+#notation
+{
+
+  border-radius: 10px
+  background-color: white
+  
+
+}
+
+
+
+
+aside
+{
+   display: flex;
+   flex-direction: column;
+   background-color: #F2F2F2;
+   justify-content: space-between;
+   border-radius: 10px;
+
+   
+
+}
+
+div
+{
+  justify-content: space-between;
+
+}
+
+
+footer 
+{
+
+	list-style-type: none;
+	display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    color: black;
+
+}
+
+#propos 
+{
+   list-style-type: none;
+   display: flex;
+   position: 5px
+}
+
+#hebergements 
+{
+   list-style-type: none;
+   display: flex;
+}
+
+#assitance 
+{
+	list-style-type: none;
+	display: flex;
+	right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
