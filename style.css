@@ -8,9 +8,19 @@ header
 
 @front-face
 {
-    font-family: "raleway";
-    src :(   )
+    font-family: raleway;
+    src :url("Raleway/static/Raleway-Thin.ttf");
+
+
 }
+body
+
+{
+  font-family: raleway;
+
+}
+
+
 
 nav ul
 {
