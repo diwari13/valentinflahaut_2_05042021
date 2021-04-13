@@ -79,12 +79,15 @@ aside
    border-radius: 10px;
 
 }
-#etoilegris
+.gris
 {
   color: silver;
 
 }
-
+.blue
+{
+  color: blue;
+}
 
 div
 {
