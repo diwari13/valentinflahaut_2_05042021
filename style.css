@@ -62,10 +62,10 @@ section
 {
 
   border-radius: 10px
-  background-color: white
-  
-
+  background-color: white;
 }
+
+
 
 
 
@@ -78,9 +78,13 @@ aside
    justify-content: space-between;
    border-radius: 10px;
 
-   
+}
+#etoilegris
+{
+  color: silver;
 
 }
+
 
 div
 {
@@ -97,32 +101,39 @@ footer
     justify-content: space-around;
     background-color: #F2F2F2;
     color: black;
-
 }
 
-#propos 
+#propos
 {
-   list-style-type: none;
-   display: flex;
-   position: 5px
+  list-style-type: none;
+  width: 33%;
+  padding 0;
 }
 
-#hebergements 
+#noshebergements
 {
-   list-style-type: none;
-   display: flex;
+  list-style-type: none;
+  width: 33%;
+  padding: 0;
 }
 
-#assitance 
+#assitance
 {
-	list-style-type: none;
-	display: flex;
-	right: 10px;
+  list-style-type: none;
+  width: 33%;
+  padding: 0;
 }
 
+.P4
+{
+  line-height: 2em;
+}
 
-
-
+.P5
+{
+  line-height: 2.5em;
+  font-weight: bold;
+}
 
 
 
