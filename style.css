@@ -3,25 +3,17 @@ header
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
-@front-face
+@font-face
 {
     font-family: raleway;
     src :url("Raleway/static/Raleway-Thin.ttf");
-
-
 }
 body
-
 {
   font-family: raleway;
-
 }
-
-
-
 nav ul
 {
     list-style-type: none;
@@ -32,7 +24,6 @@ nav li
 {
     margin-right: 15px;
 }
-
 nav a
 {
     font-size: 1.3em;
@@ -40,36 +31,23 @@ nav a
     padding-bottom: 3px;
     text-decoration: none;
 }
-
-
 nav a:hover
 {
     color: #0065FC;
     border-bottom: 3px solid #760001;
 }
-
-
 section
 {
-
-	display: space-between;
+  display: space-between;
 	background-color: #F2F2F2;
 	border-radius: 10px;
   align-items: center;
 }
-
 #notation
 {
-
   border-radius: 10px
   background-color: white;
 }
-
-
-
-
-
-
 aside
 {
    display: flex;
@@ -77,42 +55,33 @@ aside
    background-color: #F2F2F2;
    justify-content: space-between;
    border-radius: 10px;
-
 }
 .gris
 {
   color: silver;
-
 }
 .blue
 {
   color: #0065FC;
 }
-
 div
 {
   justify-content: space-between;
-
 }
-
-
-footer 
+footer
 {
-
-	list-style-type: none;
-	display: flex;
+    list-style-type: none;
+	  display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
     color: black;
 }
-
 #propos
 {
   list-style-type: none;
   width: 33%;
   padding 0;
 }
-
 #noshebergements
 {
   list-style-type: none;
@@ -126,12 +95,10 @@ footer
   width: 33%;
   padding: 0;
 }
-
 .P4
 {
   line-height: 2em;
 }
-
 .P5
 {
   line-height: 2.5em;
