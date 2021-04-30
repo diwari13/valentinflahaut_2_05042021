@@ -4,16 +4,9 @@ header
     justify-content: space-between;
     align-items: flex-end;
 }
-
-@font-face
-{
-    font-family: raleway;
-    src :url("Raleway/static/Raleway-Thin.ttf");
-}
-
 body
 {
-  font-family: raleway;
+  font-family: Raleway;
 }
 #logo img
 {
@@ -79,8 +72,30 @@ nav a:hover
      background-position:top;
      margin-bottom: 50px;
      margin-right: 30px;
-
 }
+#filtres
+{
+  display: flex;
+  flex-direction: row;
+}
+.filtre
+{
+  height: 30px;
+  border: 1px silver solid;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+  align-items: stretch;
+  padding-right: 20px;
+  justify-content: center;
+}
+.filtre span
+{
+  line-height: 20px;
+  font-weight: bold;
+}
+
+
 .blue
 {
   color: #0065FC;
@@ -106,8 +121,9 @@ section
 }
 .rond
 {
-  background-color: #DEEBFF;
+  background-color: red;
   border-radius: 50%;
+
 }
 aside
 {
