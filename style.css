@@ -104,6 +104,11 @@ section
   border-radius: 10px;
   background-color: white;
 }
+.rond
+{
+  background-color: #DEEBFF;
+  border-radius: 50%;
+}
 aside
 {
    display: flex;
@@ -116,6 +121,16 @@ aside
 {
   color: silver;
 }
+.photo1
+{
+   max-width: 220px;
+   max-height: 150px;
+}
+figure
+{
+  margin: auto;
+}
+
 footer
 {
     list-style-type: none;
