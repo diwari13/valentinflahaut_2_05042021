@@ -93,7 +93,25 @@ nav a:hover
 {
   line-height: 20px;
   font-weight: bold;
+  line-wei
 }
+.image
+{
+  max-height: 170px;
+  max-height:  90px;
+}
+#articles
+{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   display: space-between;
+}
+#article
+{
+  width: 30%;
+}
+
 
 
 .blue
@@ -121,10 +139,10 @@ section
 }
 .rond
 {
-  background-color: red;
+  background-color: #DEEBFF;
   border-radius: 50%;
-
 }
+
 aside
 {
    display: flex;
@@ -142,7 +160,14 @@ aside
    max-width: 220px;
    max-height: 150px;
 }
+#activites
+{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+
+/* footer css */
 footer
 {
     list-style-type: none;
@@ -151,7 +176,9 @@ footer
     background-color: #F2F2F2;
     color: black;
 }
-#hebergement {
+
+#hebergement
+{
     background-color: #F2F2F2;
 }
 #propos
@@ -166,7 +193,6 @@ footer
   width: 33%;
   padding: 0;
 }
-
 #assitance
 {
   list-style-type: none;
