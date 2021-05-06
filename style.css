@@ -99,6 +99,8 @@ nav a:hover
 {
   max-height: 170px;
   max-height:  90px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 #articles
 {
@@ -109,7 +111,11 @@ nav a:hover
 }
 #article
 {
-  width: 30%;
+  width: 33%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+
 }
 
 
@@ -150,10 +156,21 @@ aside
    background-color: #F2F2F2;
    justify-content: space-between;
    border-radius: 10px;
+
 }
+.image1 /* images sur le coté de L'aside */
+{
+   max-width: 90px;
+   max-height: 90px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+}
+
+
+
 .gris
 {
-  color: silver;
+  color: silver; /* couleur de l'etoile en gris */
 }
 .photo1
 {
@@ -165,6 +182,7 @@ aside
   display: flex;
   flex-wrap: wrap;
 }
+
 
 
 /* footer css */
