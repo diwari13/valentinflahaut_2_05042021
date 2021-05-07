@@ -115,10 +115,9 @@ nav a:hover
   background-color: white;
   display: flex;
   flex-wrap: wrap;
+  border: solid;
 
 }
-
-
 
 .blue
 {
@@ -135,8 +134,10 @@ nav a:hover
 section
 {
   display: space-between;
-	border-radius: 10px;
+  border-radius: 10px;
   align-items: center;
+  width: 60%;
+
 }
 #notation
 {
@@ -156,6 +157,7 @@ aside
    background-color: #F2F2F2;
    justify-content: space-between;
    border-radius: 10px;
+   width: 30%;
 
 }
 .image1 /* images sur le coté de L'aside */
@@ -176,7 +178,37 @@ aside
 {
    max-width: 220px;
    max-height: 150px;
+
 }
+.photo2
+{
+ max-width: 180px;
+ max-height: 120px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+.photo3
+{
+ max-width: 180px;
+ max-height: 120px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+.photo4
+{
+ max-width: 180px;
+ max-height: 120px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+.photo5
+{
+ max-width: 180px;
+ max-height:120px;
+ border-top-right-radius: 10px;
+ border-top-left-radius: 10px;
+}
+
 #activites
 {
   display: flex;
@@ -189,7 +221,7 @@ aside
 footer
 {
     list-style-type: none;
-	  display: flex;
+    display: flex;
     justify-content: space-around;
     background-color: #F2F2F2;
     color: black;
