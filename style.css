@@ -93,7 +93,7 @@ nav a:hover
 {
   line-height: 20px;
   font-weight: bold;
-  line-wei
+
 }
 .image
 {
@@ -109,13 +109,14 @@ nav a:hover
    flex-wrap: wrap;
    display: space-between;
 }
-#article
+.article
 {
-  width: 33%;
+  width: 25%;
   background-color: white;
   display: flex;
   flex-wrap: wrap;
-  border: solid;
+  border: solid white;
+  border-radius: 10px
 
 }
 
@@ -131,12 +132,22 @@ nav a:hover
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.conteneur
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.populaires
+{
+
+  background-color: #F2F2F2;
+}
 section
 {
-  display: space-between;
+
   border-radius: 10px;
   align-items: center;
-  width: 60%;
 
 }
 #notation
@@ -154,11 +165,7 @@ aside
 {
    display: flex;
    flex-direction: column;
-   background-color: #F2F2F2;
-   justify-content: space-between;
    border-radius: 10px;
-   width: 30%;
-
 }
 .image1 /* images sur le coté de L'aside */
 {
@@ -182,8 +189,8 @@ aside
 }
 .photo2
 {
- max-width: 180px;
- max-height: 120px;
+ max-width: 260px;
+ max-height: 560px;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
 }
@@ -230,6 +237,8 @@ footer
 #hebergement
 {
     background-color: #F2F2F2;
+    width: 70%;
+
 }
 #propos
 {
