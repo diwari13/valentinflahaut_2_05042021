@@ -108,6 +108,8 @@ nav a:hover
    flex-direction: row;
    flex-wrap: wrap;
    display: space-between;
+   justify-content: space-evenly;
+
 }
 .article
 {
@@ -117,6 +119,8 @@ nav a:hover
   flex-wrap: wrap;
   border: solid white;
   border-radius: 10px
+  justify-content:center;
+  padding: 10px;
 
 }
 
@@ -140,8 +144,8 @@ nav a:hover
 }
 .populaires
 {
-
   background-color: #F2F2F2;
+  width: 25%;
 }
 section
 {
@@ -166,6 +170,7 @@ aside
    display: flex;
    flex-direction: column;
    border-radius: 10px;
+   background-color: white;
 }
 .image1 /* images sur le coté de L'aside */
 {
