@@ -2,11 +2,11 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
 }
 body
 {
   font-family: Raleway;
+  margin: 0;
 }
 #logo img
 {
@@ -20,21 +20,18 @@ nav ul
     list-style-type: none;
     display: flex;
     width: 100%;
-    margin: 0;
+
     padding: 0;
 }
-
 nav li
 {
    justify-content: center;
    margin-right: 15px;
 }
 
-/* NAVIGATION HEADER */
 nav a
 {
     font-size: 1.3em;
-    padding-bottom: 28px;
     text-decoration: none;
 }
 nav a:hover
@@ -43,7 +40,10 @@ nav a:hover
   margin: 0;
   padding: 0;
 }
+.hover
+{
 
+}
 .nav1, .nav2
 {
     color: black;
@@ -59,22 +59,11 @@ nav a:hover
     font-weight: bold;
     margin: 30px;
 }
-.nav3
-{
-    color: #0065FC;
-    font-weight: bold;
-    margin: 30px;
-}
-
 #navMenu
 {
      display: flex;
-     background-position: top;
-     margin-bottom: 50px;
      margin-right: 30px;
 }
-
-
 .carte /* jessaye d'aligner la petite carte dans la bordure */
 {
   justify-content: center;
@@ -114,9 +103,14 @@ nav a:hover
   font-weight: bold;
 
 }
+#recherche
+{
+  display: flex;
+}
+
 .image
 {
-  max-width: 100px;
+  width: 100%;
   max-height:  90px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -138,8 +132,7 @@ nav a:hover
   flex-wrap: wrap;
   border: solid white;
   border-radius: 10px;
-  justify-content: center;
-  padding: 10px;
+  padding: 2px;
 
 }
 
@@ -257,21 +250,7 @@ aside
 {
   display: flex;
   flex-wrap: wrap;
-}
-.contenant1
-{
-
-}
-.contenant2
-{
-
-}
-
-
-
-
-
-/* footer css */
+}/* footer css */
 footer
 {
     list-style-type: none;
