@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
 header
 {
     display: flex;
@@ -7,25 +9,21 @@ body
 {
   font-family: Raleway;
   margin: 0;
+
 }
-#logo img
+.logo
 {
-  min-width: 20%;
-  min-height: 20%;
-  max-width: 30%;
-  max-height: 30%;
+  width: 100px;
 }
 nav ul
 {
     list-style-type: none;
     display: flex;
-    width: 100%;
-
+    margin: 0;
     padding: 0;
 }
 nav li
 {
-   justify-content: center;
    margin-right: 15px;
 }
 
@@ -37,12 +35,8 @@ nav a
 nav a:hover
 {
   text-decoration: overline;
-  margin: 0;
-  padding: 0;
-}
-.hover
-{
-
+  margin: 0px;
+  padding: 0px;
 }
 .nav1, .nav2
 {
@@ -51,18 +45,16 @@ nav a:hover
 .nav1:hover, .nav2:hover
 {
     color: #0065FC;
-    margin: 30px;
+
 }
 .nav3
 {
     color: #0065FC;
     font-weight: bold;
-    margin: 30px;
 }
 #navMenu
 {
      display: flex;
-     margin-right: 30px;
 }
 .carte /* jessaye d'aligner la petite carte dans la bordure */
 {
@@ -85,6 +77,7 @@ nav a:hover
 {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .filtre
 {
@@ -95,7 +88,8 @@ nav a:hover
   align-items: stretch;
   padding-right: 20px;
   justify-content: center;
-  margin-right: 35px;
+  margin-right: 30px;
+  align-items: center;
 }
 .filtre span
 {
@@ -138,12 +132,27 @@ nav a:hover
   margin-bottom: 25px;
 
 }
-
+.article2
+{
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2px;
+  margin-bottom: 20px;
+}
 .blue /* couleur de létoile en bleu */
 {
   color: #0065FC;
   font-size: 10px
 }
+.inter
+{
+  color: #0065FC;
+  border-radius: 20px
+  border: 2px solid silver;
+}
+
 .bouton
 {
     color: white;
@@ -169,6 +178,14 @@ nav a:hover
   padding-right: 10px;
   flex-direction: column;
 }
+.circle
+{
+  margin-left: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 section
 {
 
@@ -185,27 +202,24 @@ section
 {
   background-color: #DEEBFF;
   border-radius: 50%;
-}
+  padding-left: 18px;
+  height: 100%;
 
-aside
-{
-   display: flex;
-   flex-direction: row;
-   border-radius: 10px;
-   background-color: white;
-   margin-bottom: 35px;
-   margin-top: 25Px;
 }
 .image1 /* images sur le coté de L'aside */
 {
-   max-width: 90px;
-   max-height: 90px;
-   border-bottom-left-radius: 5px;
-   border-top-left-radius: 5px;
+
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    object-fit: cover;
+    height: 100%;
+    width: 100Px;
 }
-.figure
+figure
 {
+  position: relative;
   margin: 0;
+  border-radius: 10px;
 }
 .chart /* Le titre les plus populaies avec le logo */
 {
@@ -214,6 +228,25 @@ aside
   align-content: stretch;
   justify-content: space-evenly;
   align-items: center;
+}
+figcaption
+{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    line-height: 2.5em;
+    font-weight: bold;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+figure.vieux_port
+{
+  grid-row: 2 span;
+}
+figure.Calanques
+{
+  grid-row: 2 span;
 }
 
 .gris
@@ -229,37 +262,41 @@ aside
 }
 .photo2
 {
- max-width: 260px;
- max-height: 560px;
+ height: 100%;
+ width:  100%;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
+ object-fit: cover;
 }
 .photo3
 {
- max-width: 180px;
- max-height: 120px;
+ height: 100%;
+ width: 100%;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
 }
 .photo4
 {
- max-width: 180px;
- max-height: 120px;
+ height: 100%;
+ width: 100%;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
 }
 .photo5
 {
- max-width: 180px;
- max-height:120px;
+  width: 100%;
+  height: 100%;
  border-top-right-radius: 10px;
  border-top-left-radius: 10px;
 }
 
 #activites
 {
-  display: flex;
-  flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 14rem 14rem;
+    grid-gap: 15px;
+    padding: 15px;
 }/* footer css */
 footer
 {
@@ -274,34 +311,19 @@ footer
 {
     background-color: #F2F2F2;
     width: 70%;
-
 }
-#propos
+.block_footer ul
 {
   list-style-type: none;
-  width: 33%;
-
-}
-#noshebergements
-{
-  list-style-type: none;
-  width: 33%;
   padding: 0;
 }
-#assitance
-{
-  list-style-type: none;
-  width: 33%;
-  padding: 0;
-}
-.P4
+.block_footer li
 {
   line-height: 2em;
 }
-.P5
+.block_footer
 {
-  line-height: 2.5em;
-  font-weight: bold;
+  width: 33%;
 }
 h2
 {
