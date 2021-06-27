@@ -93,8 +93,8 @@ nav a:hover
 }
 .filtre span
 {
-  line-height: 20px;
   font-weight: bold;
+
 
 }
 #recherche
@@ -144,7 +144,10 @@ nav a:hover
 .blue /* couleur de létoile en bleu */
 {
   color: #0065FC;
-  font-size: 10px
+  font-size: 10px;
+  align-self: center;
+  display: flex;
+  align-items: center;
 }
 .inter
 {
@@ -202,8 +205,9 @@ section
 {
   background-color: #DEEBFF;
   border-radius: 50%;
-  padding-left: 18px;
   height: 100%;
+  width: 30px;
+  justify-content: center;
 
 }
 .image1 /* images sur le coté de L'aside */
