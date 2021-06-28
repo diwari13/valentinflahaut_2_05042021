@@ -301,30 +301,26 @@ figure.frioul
 {
  height: 100%;
  width:  100%;
- border-top-right-radius: 10px;
- border-top-left-radius: 10px;
+ border-radius: 20px;
  object-fit: cover;
 }
 .photo3
 {
  height: 100%;
  width: 100%;
- border-top-right-radius: 10px;
- border-top-left-radius: 10px;
+ border-radius: 20px;
 }
 .photo4
 {
  height: 100%;
  width: 100%;
- border-top-right-radius: 10px;
- border-top-left-radius: 10px;
+ border-radius: 20px;
 }
 .photo5
 {
   width: 100%;
   height: 100%;
- border-top-right-radius: 10px;
- border-top-left-radius: 10px;
+ border-radius: 20px;
 }
 
 #activites
