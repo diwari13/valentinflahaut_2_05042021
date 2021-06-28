@@ -2,7 +2,7 @@
 
 #bloc-page
 {
-  padding: 20px;
+  padding: 30px;
 }
 header
 {
@@ -61,6 +61,14 @@ nav a:hover
 {
      display: flex;
 }
+.introduction
+{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15PX;
+}
+
+
 .carte /* jessaye d'aligner la petite carte dans la bordure */
 {
   justify-content: center;
@@ -83,29 +91,26 @@ nav a:hover
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-bottom: 20px;
 }
 .filtre
 {
   height: 30px;
-  border: 1px #F2F2F2 solid;
+  border: 2px #F2F2F2 solid;
   border-radius: 24px;
   display: flex;
-  align-items: stretch;
-  padding-right: 20px;
-  justify-content: center;
   margin-right: 30px;
   align-items: center;
 }
 .filtre span
 {
   font-weight: bold;
-
-
+  margin-right: 10px;
 }
 #recherche
 {
   display: flex;
-  padding-left: 40px;
+  padding-bottom: 20px;
 }
 
 .image
@@ -175,9 +180,8 @@ nav a:hover
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-right: 25px;
-  margin-left: 25Px;
 }
+
 .populaires
 {
   background-color: #F2F2F2;
@@ -188,10 +192,9 @@ nav a:hover
 }
 .circle
 {
-  margin-left: 23px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 section
@@ -335,6 +338,12 @@ footer
   width: 33%;
   padding-left: 30px;
 }
+h1
+{
+  margin: 0;
+  font-size: 15px;
+}
+
 h2
 {
   font-weight: bolder;
