@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 
+#bloc-page
+{
+  padding: 20px;
+}
 header
 {
     display: flex;
@@ -21,6 +25,7 @@ nav ul
     display: flex;
     margin: 0;
     padding: 0;
+    border-top: 3Px #0065FC;
 }
 nav li
 {
@@ -328,6 +333,7 @@ footer
 .block_footer
 {
   width: 33%;
+  padding-left: 30px;
 }
 h2
 {
