@@ -247,7 +247,7 @@ figure
   display: flex;
   flex-direction: row;
   align-content: stretch;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 figcaption
