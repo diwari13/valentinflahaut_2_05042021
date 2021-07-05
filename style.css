@@ -70,8 +70,6 @@ nav a:hover
   padding-bottom: 20px;
   font-size: 15PX;
 }
-
-
 .carte /* jessaye d'aligner la petite carte dans la bordure */
 {
   justify-content: center;
@@ -161,12 +159,6 @@ nav a:hover
   display: flex;
   align-items: center;
 }
-.inter
-{
-  color: #0065FC;
-  border-radius: 20px
-  border: 2px solid silver;
-}
 
 .bouton
 {
@@ -200,13 +192,14 @@ nav a:hover
 }
 .inter
 {
-  border: 3px solid black;
+  border: 2px solid #f2f2f2;
   border-radius: 50%;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 10;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #0065FC;
 }
 .logement
 {
@@ -287,7 +280,6 @@ figure.frioul
   margin-top: auto;
   height: 80%;
 }
-
 .gris
 {
   color: silver; /* couleur de l'etoile en gris */
