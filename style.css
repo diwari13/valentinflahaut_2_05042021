@@ -113,6 +113,11 @@ nav a:hover
   display: flex;
   padding-bottom: 20px;
 }
+.hébergement_marseille
+{
+  padding-left: 8Px;
+}
+
 
 .image
 {
@@ -234,8 +239,9 @@ section
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
     object-fit: cover;
-    height: 100%;
-    width: 100Px;
+    width: 50%;
+    min-width: 40%;
+    height: 110px;
 }
 figure
 {
