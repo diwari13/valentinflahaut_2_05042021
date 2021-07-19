@@ -452,10 +452,13 @@ p
    }
    .filtre
    {
-    margin: 0;
+
     margin-bottom: 10px;
    }
-
+   .filtre_telephone
+   {
+    display: flex;
+   }
    .populaires_conteneur article
    {
     width: 100%;
