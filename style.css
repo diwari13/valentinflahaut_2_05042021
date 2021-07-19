@@ -94,6 +94,11 @@ nav a:hover
   align-items: center;
   padding-bottom: 20px;
 }
+.filtre_hover:hover
+{
+  background: yellow;
+}
+
 .filtre
 {
   height: 30px;
@@ -164,7 +169,10 @@ nav a:hover
   display: flex;
   align-items: center;
 }
-
+.les_plus_populaires
+{
+  margin-bottom: 20px;
+}
 .bouton
 {
     color: white;
@@ -313,6 +321,7 @@ figure.frioul
  height: 100%;
  width: 100%;
  border-radius: 20px;
+ object-fit: cover;
 }
 .photo4
 {
@@ -386,3 +395,125 @@ p
   margin: 0;
 }
 @media screen and (max-width: 1024px)
+{
+   .conteneur
+   {
+    flex-direction: column-reverse;
+   }
+    .populaires
+   {
+    background-color: #F2F2F2;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between
+   }
+     #hebergement
+   {
+    background-color: #F2F2F2;
+    padding: 5px 20px;
+    width: 95%;
+    margin-top: 40px;
+   }
+   .filtre
+   {
+
+    height: 30px;
+    border: 2px #F2F2F2 solid;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+   }
+   .populaires_conteneur
+   {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   .populaires_conteneur article
+   {
+    width: 25%;
+   }
+}
+@media screen and (max-width: 375px)
+{
+    header
+    {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    }
+    #filtres
+   {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   padding-bottom: 20px;
+   }
+   .filtre
+   {
+    margin: 0;
+    margin-bottom: 10px;
+   }
+
+   .populaires_conteneur article
+   {
+    width: 100%;
+
+   }
+   .populaires_conteneur
+   {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   #hebergement
+   {
+    background-color: white;
+    padding: 5px 20px;
+    width: 95%;
+   }
+   #articles
+   {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+
+
+   .article
+   {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: solid white;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 10px 10px #f2f2f2;
+    width: 100%;
+  }
+  #activites
+  {
+    grid-gap: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  footer
+  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    color: black;
+    flex-direction: column;
+  }
+  .block_footer
+  {
+    padding-left: 30px;
+
+  }
+}
+
+

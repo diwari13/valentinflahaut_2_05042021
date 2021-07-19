@@ -1,9 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="fr">
    <head>
 
       <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+      <meta charset="utf-8" />
 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Réservia</title>
    </head>
    <body>
@@ -13,17 +16,15 @@
                 <img class="logo" src="images/logo/Reservia@3x.png" alt="logo ">
 
                    <nav id="navMenu">
-                     <ul classe="hebAct">
+                     <ul class="hebAct">
                            <li>
                               <a class="nav1" href="#hebergement">Hébergement</a>
                            </li>
                            <li>
                               <a class="nav2" href="#activites">Activités</a>
                            </li>
-                           <li>
-                              <a class="nav3" href="#">S'inscrire</a>
-                           </li>
                      </ul>
+                             <a class="nav3" href="#">S'inscrire</a>
                   </nav>
          </header>
          <section id="recherches">
@@ -41,15 +42,15 @@
             </div>
             <div id="filtres">
                <h2>Filtres</h2>
-               <div class="filtre"><div class="blue rond"><i class="fas fa-money-bill-wave con"></i></div><span>économie</span></div>
-               <div class="filtre"><div class="blue rond"><i class="fas fa-child con"></i></div><span>Familial</span></div>
-               <div class="filtre"><div class="blue rond"><i class="fas fa-heart con"></i></div><span>Romantique</span></div>
-               <div class="filtre"><div class="blue rond"><i class="fas fa-dog con"></i></div><span>Animaux autorisés</span></div>
+               <div class="filtre"><div class="blue rond"><i class="fas fa-money-bill-wave con"></i></div><span class="filtre_hover">économie</span></div>
+               <div class="filtre"><div class="blue rond"><i class="fas fa-child con"></i></div><span class="filtre_hover">Familial</span></div>
+               <div class="filtre"><div class="blue rond"><i class="fas fa-heart con"></i></div><span class="filtre_hover">Romantique</span></div>
+               <div class="filtre"><div class="blue rond"><i class="fas fa-dog con"></i></div><span class="filtre_hover">Animaux autorisés</span></div>
             </div>
             <div class="circle"><i class="fas fa-info inter"></i><span class="logement">Plus de 500 logements sont disponibles dans cette ville</span></div>
          </section>
 
-      <div class="Conteneur">
+      <div class="conteneur">
          <section class="division" id="hebergement">
              <h2>Hébergement à marseille</h2>
 
@@ -59,7 +60,7 @@
                  <div class="hébergement_marseille">
                     <h3>Auberge la Cannebière</h3>
                     <p>Nuit à partir de 25€</p>
-                    <span>
+                    <span class="aaa">
                        <i class="fas fa-star blue"></i>
                        <i class="fas fa-star blue"></i>
                        <i class="fas fa-star blue"></i>
@@ -147,11 +148,12 @@
                  <h2 class="h2">Les plus populaires</h2>
                  <i class="fas fa-chart-line"></i>
             </div>
+          <div class="populaires_conteneur">
             <article class="article2">
                 <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="image1" alt="soleil_du_matin">
                 <div class="les_populaires">
                   <h3>Hôtel le soleil du matin</h3>
-                  <p>Nuit à partir de 128€</p>
+                  <p class="les_plus_populaires">Nuit à partir de 128€</p>
                   <span>
                      <i class="fas fa-star blue"></i>
                      <i class="fas fa-star blue"></i>
@@ -165,7 +167,7 @@
                 <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="image1" alt="Au_coeur_de_leau">
                 <div class="les_populaires">
                   <h3>Au coeur de l'eau Chambre d'hotes</h3>
-                  <p>Nuit à partir de 71€</p>
+                  <p class="les_plus_populaires">Nuit à partir de 71€</p>
                   <span>
                      <i class="fas fa-star blue"></i>
                      <i class="fas fa-star blue"></i>
@@ -179,7 +181,7 @@
                 <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="image1" alt="Tout_bleu_et_Blanc">
                 <div class="les_populaires">
                   <h3>Hôtel Tout bleu et Blanc</h3>
-                  <p>Nuit à partir de 68€</p>
+                  <p class="les_plus_populaires">Nuit à partir de 68€</p>
                   <span>
                      <i class="fas fa-star blue"></i>
                      <i class="fas fa-star blue"></i>
@@ -189,6 +191,7 @@
                   </span>
                 </div>
             </article>
+          </div>
          </section>
       </div>
            <div><h2>Activités à Marseille</h2></div>
