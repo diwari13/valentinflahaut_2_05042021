@@ -508,11 +508,13 @@ p
     background-color: #F2F2F2;
     color: black;
     flex-direction: column;
+    margin-top: 20px;
   }
   .block_footer
   {
     padding-left: 30px;
-
+    width: 60%;
+    margin-top: 10Px;
   }
 }
 
