@@ -394,7 +394,7 @@ p
   font-size: 10px;
   margin: 0;
 }
-@media screen and (max-width: 1024px)
+@media screen and (min-width: 376px) and (max-width: 1024px)
 {
    .conteneur
    {
