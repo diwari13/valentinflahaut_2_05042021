@@ -59,6 +59,7 @@ nav a:hover
 {
     color: #0065FC;
     font-weight: bold;
+    padding-top: 15px;
 }
 #navMenu
 {
@@ -396,6 +397,8 @@ p
 }
 @media screen and (min-width: 376px) and (max-width: 1024px)
 {
+
+
    .conteneur
    {
     flex-direction: column-reverse;
@@ -429,6 +432,7 @@ p
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
    }
    .populaires_conteneur article
    {
@@ -437,6 +441,11 @@ p
 }
 @media screen and (max-width: 375px)
 {
+
+    #bloc-page
+    {
+    padding: 0;
+    }
     header
     {
     display: flex;
