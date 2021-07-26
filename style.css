@@ -546,9 +546,13 @@ p
     flex-direction: column;
     margin-top: 20px;
   }
-  #activites
+  .image_responsive
   {
-
+    width: 100%;
+    max-height: 90px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
   }
   .block_footer
   {
