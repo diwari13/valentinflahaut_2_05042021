@@ -475,10 +475,6 @@ p
     flex-direction: column;
     width: 91%;
    }
-   section
-   {
-    border-radius: 0px;
-   }
    .conteneur
    {
     display: flex;
