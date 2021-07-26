@@ -21,11 +21,11 @@ body
 }
 nav ul
 {
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    border-top: 3Px #0065FC;
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border-top: 3Px #0065FC;
 }
 nav li
 {
@@ -34,8 +34,8 @@ nav li
 
 nav a
 {
-    font-size: 1.3em;
-    text-decoration: none;
+  font-size: 1.3em;
+  text-decoration: none;
 }
 nav a:hover
 {
@@ -45,25 +45,25 @@ nav a:hover
 }
 .nav1, .nav2
 {
-    color: black;
-    border-top: 3px solid white;
-    padding-top: 10px;
-    display: inline-block;
+  color: black;
+  border-top: 3px solid white;
+  padding-top: 10px;
+  display: inline-block;
 }
 .nav1:hover, .nav2:hover
 {
-    color: #0065FC;
+  color: #0065FC;
 
 }
 .nav3
 {
-    color: #0065FC;
-    font-weight: bold;
-    padding-top: 15px;
+  color: #0065FC;
+  font-weight: bold;
+  padding-top: 15px;
 }
 #navMenu
 {
-     display: flex;
+  display: flex;
 }
 .introduction
 {
@@ -133,10 +133,10 @@ nav a:hover
 }
 #articles
 {
-   display: flex;
-   flex-direction: row;
-   flex-wrap: wrap;
-   justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 .article
@@ -176,12 +176,12 @@ nav a:hover
 }
 .bouton
 {
-    color: white;
-    background-color: #0065FC;
-    border-color:#0065FC;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    height: 30;
+  color: white;
+  background-color: #0065FC;
+  border-color:#0065FC;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 30px;
 }
 .conteneur
 {
@@ -214,20 +214,19 @@ nav a:hover
   border-radius: 50%;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 10;
+  font-size: 10px;
   padding-top: 7px;
   padding-bottom: 7px;
   color: #0065FC;
+  font-size: 10px;
 }
 .logement
 {
   margin-left: 20px;
   font-size: 15px;
 }
-
 section
 {
-
   border-radius: 10px;
 }
 #notation
@@ -242,17 +241,15 @@ section
   height: 100%;
   width: 30px;
   justify-content: center;
-
 }
 .image1 /* images sur le coté de L'aside */
 {
-
-    border-bottom-left-radius: 15px;
-    border-top-left-radius: 15px;
-    object-fit: cover;
-    width: 50%;
-    min-width: 40%;
-    height: 110px;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  object-fit: cover;
+  width: 50%;
+  min-width: 40%;
+  height: 110px;
 }
 figure
 {
@@ -271,16 +268,16 @@ figure
 }
 figcaption
 {
-    position: absolute;
-    bottom: 0;
-    background-color: white;
-    width: 100%;
-    line-height: 2.5em;
-    font-weight: bold;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-left: 10px;
-    font-size: 13px;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  line-height: 2.5em;
+  font-weight: bold;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-left: 10px;
+  font-size: 13px;
 }
 figure.vieux_port
 {
@@ -306,8 +303,8 @@ figure.frioul
 }
 .photo1
 {
-   max-width: 220px;
-   max-height: 150px;
+  max-width: 220px;
+  max-height: 150px;
 
 }
 .photo2
@@ -339,26 +336,25 @@ figure.frioul
 
 #activites
 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 11rem 11rem;
-    grid-gap: 15px;
-    padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 11rem 11rem;
+  grid-gap: 15px;
+  padding: 15px;
 }/* footer css */
 footer
 {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    color: black;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #F2F2F2;
+  color: black;
 }
-
 #hebergement
 {
-    background-color: #F2F2F2;
-    width: calc(70% - 40px);
-    padding: 5px 20px;
+  background-color: #F2F2F2;
+  width: calc(70% - 40px);
+  padding: 5px 20px;
 }
 .block_footer ul
 {
@@ -397,9 +393,7 @@ p
 }
 @media screen and (min-width: 376px) and (max-width: 1024px)
 {
-
-
-   .conteneur
+    .conteneur
    {
     flex-direction: column-reverse;
    }
@@ -420,7 +414,6 @@ p
    }
    .filtre
    {
-
     height: 30px;
     border: 2px #F2F2F2 solid;
     border-radius: 24px;
@@ -442,39 +435,34 @@ p
 @media screen and (max-width: 375px)
 {
 
-    #bloc-page
-    {
-    padding: 0;
-    }
     header
-    {
+   {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    }
+   }
     #filtres
    {
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
    }
    .filtre
    {
-
     margin-bottom: 10px;
    }
    .filtre_telephone
-   {
+  {
     display: flex;
-   }
+  }
    .populaires_conteneur article
-   {
+  {
     width: 100%;
 
-   }
+  }
    .populaires_conteneur
-   {
+  {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -530,13 +518,13 @@ p
     box-shadow: 0px 0px 10px 10px #f2f2f2;
     width: 100%;
   }
-  #activites
+   #activites
   {
     grid-gap: 15px;
     display: flex;
     flex-direction: column;
   }
-  footer
+    footer
   {
     list-style-type: none;
     display: flex;
