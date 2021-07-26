@@ -485,7 +485,7 @@ p
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
-    width: 100%;
+    width: 91%;
    }
    section
    {
@@ -549,7 +549,7 @@ p
   .image_responsive
   {
     width: 100%;
-    max-height: 90px;
+    max-height: 130px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     object-fit: cover;
