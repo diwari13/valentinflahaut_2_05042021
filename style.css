@@ -4,6 +4,7 @@
 {
   padding:0px 30px;
   max-width: 1400px;
+  margin: auto;
 }
 header
 {
@@ -40,27 +41,25 @@ nav a
 }
 nav a:hover
 {
-  text-decoration: overline;
   margin: 0px;
-  padding: 0px;
 }
 .nav1, .nav2
 {
   color: black;
-  border-top: 3px solid white;
   padding-top: 10px;
   display: inline-block;
 }
 .nav1:hover, .nav2:hover
 {
   color: #0065FC;
+  border-top: 3px solid;
 
 }
 .nav3
 {
   color: #0065FC;
   font-weight: bold;
-  padding-top: 15px;
+  padding-top: 10px;
 }
 #navMenu
 {
@@ -95,6 +94,7 @@ nav a:hover
   flex-direction: row;
   align-items: center;
   padding-bottom: 20px;
+  flex-wrap: wrap;
 }
 .filtre_hover:hover
 {
@@ -412,6 +412,14 @@ p
     padding: 5px 20px;
     width: 95%;
     margin-top: 40px;
+   }
+   #filtres
+   {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-bottom: 20px;
+   flex-wrap: wrap;
    }
    .filtre
    {
