@@ -3,6 +3,7 @@
 #bloc-page
 {
   padding:0px 30px;
+  max-width: 1400px;
 }
 header
 {
@@ -434,14 +435,26 @@ p
 }
 @media screen and (max-width: 375px)
 {
-
+   .telephone_responsive
+   {
+    padding: 10px 10px;
+   }
     header
    {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
    }
-    #filtres
+
+   .nav3
+  {
+    color: #0065FC;
+    font-weight: bold;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+   }
+   #filtres
    {
     display: flex;
     flex-direction: column;
