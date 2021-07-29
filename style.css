@@ -213,7 +213,7 @@ nav a:hover
   border-color:#0065FC;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  }
+}
 
 .conteneur
 {
@@ -470,8 +470,8 @@ p
     width: calc(100% - 40px);
     padding-left: 10px;
     padding-right: 10px;
-    justify-content: space-between
-  }
+  justify-content: space-between  }
+
   #hebergement
   {
     background-color: #F2F2F2;
@@ -510,6 +510,7 @@ p
   {
     width: 25%;
   }
+
   .article2
   {
     display: flex;
@@ -521,6 +522,7 @@ p
     box-shadow: 0px 0px 10px 10px #f2f2f2;
     flex-direction: column;
   }
+
   .image1
   {
     border-top-right-radius: 15px;
@@ -538,6 +540,7 @@ p
   {
     padding: 0px 0px;
   }
+
   .telephone_responsive
   {
     padding: 20px 20px;
@@ -550,15 +553,13 @@ p
     flex-direction: column;
   }
 
-   nav ul
-   {
-
+  nav ul
+  {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-
-   }
+  }
 
   .nav3
   {
@@ -569,36 +570,50 @@ p
     right: 5px;
     font-size: 17px;
     padding-top: 30px;
-    padding-right: 20p
-  }
+  padding-right: 20p  }
 
   .nav1, .nav2, .nav3
   {
     font-size: 17px;
   }
+
   #navMenu
   {
     display: block;
   }
 
+  .hebAct li
+  {
+    width: 50%;
+    margin-right: 0px;
+  }
+
   .nav1
   {
     border-bottom: 3px solid #0065FC;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
   }
 
   .nav2
   {
     border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
   }
 
   .loupe
   {
     display: inline !important;
   }
+
   .responsive_bouton
   {
     display: none;
   }
+
   .bouton
   {
     color: white;
@@ -650,8 +665,7 @@ p
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
-    width: calc(100% - 20px)
-  }
+  width: calc(100% - 20px)  }
 
   .conteneur
   {
