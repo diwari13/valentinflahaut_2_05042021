@@ -652,6 +652,11 @@ p
     width: 100%;
   }
 
+  .h2_activites_marseille
+  {
+    padding-left: 20px;
+  }
+
   #activites
   {
     grid-gap: 15px;
