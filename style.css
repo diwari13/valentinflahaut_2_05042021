@@ -137,6 +137,7 @@ nav a:hover
 {
   font-weight: bold;
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 #recherche
@@ -457,7 +458,7 @@ p
   margin: 0;
 }
 
-@media screen and (min-width: 376px) and (max-width: 1024px)
+@media screen and (min-width: 576px) and (max-width: 1024px)
 {
   .conteneur
   {
@@ -470,7 +471,8 @@ p
     width: calc(100% - 40px);
     padding-left: 10px;
     padding-right: 10px;
-  justify-content: space-between  }
+    justify-content: space-between;
+  }
 
   #hebergement
   {
@@ -580,6 +582,8 @@ p
   #navMenu
   {
     display: block;
+    margin-left: -20px;
+    margin-right: -40px;
   }
 
   .hebAct li
