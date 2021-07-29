@@ -30,7 +30,7 @@ nav ul
   display: flex;
   margin: 0;
   padding: 0;
-  border-top: 3Px #0065FC;
+  border-top: 3px #0065FC;
 }
 
 nav li
@@ -106,7 +106,7 @@ nav a:hover
 
 .loupe
 {
-  display: none;
+  display: none !important;
 }
 
 #filtres
@@ -467,11 +467,11 @@ p
   .populaires
   {
     background-color: #F2F2F2;
-    width: auto;
+    width: calc(100% - 40px);
     padding-left: 10px;
     padding-right: 10px;
-  justify-content: space-between}
-
+    justify-content: space-between
+  }
   #hebergement
   {
     background-color: #F2F2F2;
@@ -523,7 +523,8 @@ p
   }
   .image1
   {
-    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
     border-top-left-radius: 15px;
     object-fit: cover;
     height: 110px;
@@ -549,6 +550,16 @@ p
     flex-direction: column;
   }
 
+   nav ul
+   {
+
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+   }
+
   .nav3
   {
     color: #0065FC;
@@ -565,14 +576,37 @@ p
   {
     font-size: 17px;
   }
+  #navMenu
+  {
+    display: block;
+  }
 
+  .nav1
+  {
+    border-bottom: 3px solid #0065FC;
+  }
 
+  .nav2
+  {
+    border-bottom: 3px solid #F2F2F2;
+  }
+
+  .loupe
+  {
+    display: inline !important;
+  }
+  .responsive_bouton
+  {
+    display: none;
+  }
   .bouton
   {
     color: white;
     background-color: #0065FC;
     border-color:#0065FC;
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #filtres
@@ -605,13 +639,18 @@ p
     flex-wrap: wrap;
   }
 
+  section
+  {
+    border-radius: 0px;
+  }
+
   .populaires
   {
     background-color: #F2F2F2;
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
-    width: 91%;
+    width: calc(100% - 20px)
   }
 
   .conteneur
