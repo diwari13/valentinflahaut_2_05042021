@@ -533,6 +533,10 @@ p
 
 @media screen and (max-width: 375px)
 {
+  #bloc-page
+  {
+    padding: 0px 0px;
+  }
   .telephone_responsive
   {
     padding: 20px 20px;
