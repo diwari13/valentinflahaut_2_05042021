@@ -665,7 +665,8 @@ p
     padding-left: 20px;
     padding-right: 20px;
     flex-direction: column;
-  width: calc(100% - 20px)  }
+    width: calc(100% - 40px);
+  }
 
   .conteneur
   {
@@ -695,7 +696,6 @@ p
     border-top-left-radius: 15px;
     object-fit: cover;
     min-width: 40%;
-    height: 91px;
   }
 
   .article
