@@ -103,6 +103,11 @@ nav a:hover
   border-bottom-left-radius: 10px;
 }
 
+.loupe
+{
+  display: none;
+}
+
 #filtres
 {
   display: flex;
@@ -207,8 +212,7 @@ nav a:hover
   border-color:#0065FC;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 30px;
-}
+  }
 
 .conteneur
 {
@@ -284,7 +288,7 @@ section
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
   object-fit: cover;
-  width: 50%;
+  width: 40%;
   min-width: 40%;
   height: 110px;
 }
@@ -312,7 +316,7 @@ figcaption
   position: absolute;
   bottom: 0;
   background-color: white;
-  width: 100%;
+  width: calc(100% - 10px);
   line-height: 2.5em;
   font-weight: bold;
   border-bottom-left-radius: 10px;
