@@ -552,7 +552,14 @@ p
     position: absolute;
     top: 5px;
     right: 5px;
+    font-size: 17px;
   }
+
+  .nav1, .nav2, .nav3
+  {
+    font-size: 17px;
+  }
+
 
   .bouton
   {
